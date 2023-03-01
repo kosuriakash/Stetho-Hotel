@@ -1,0 +1,74 @@
+.aboutCard h4 {
+  color: #31b675;
+  margin-top: 50px;
+}
+.aboutCard h1 {
+  font-size: 35px;
+  font-weight: 100;
+}
+.aboutCard h1 span {
+  font-weight: bold;
+}
+.aboutCard p {
+  margin-top: 20px;
+  font-weight: 300;
+}
+.aboutCard .row1 {
+  padding-right: 30px;
+}
+.aboutCard .row.image,
+.aboutCard .image {
+  position: relative;
+  margin-top: 100px;
+}
+.aboutCard .control-btn button {
+  left: 45%;
+  top: 140px;
+}
+.aboutCard .control-btn i {
+  font-size: 20px;
+}
+.features .flex_space {
+  flex-direction: row-reverse;
+}
+.features h2,h1,p{
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.features img {
+  margin-top: -100px;
+  margin-left: -80px;
+  width: 115%;
+}
+.features .control-btn,
+.features .image::after,
+.features .image::before,
+.features .control-btn::before {
+  display: none;
+}
+.features h1 {
+  font-weight: bold;
+}
+.features h1 span {
+  color: #31b675;
+}
+@media screen and (max-width: 768px) {
+  .features .flex_space,
+  .aboutCard {
+    flex-direction: column;
+  }
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+  .aboutCard .row {
+    width: 100%;
+  }
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+  .aboutCard img {
+    width: 100%;
+  }
+}
